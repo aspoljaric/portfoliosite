@@ -7,11 +7,20 @@
     -ms-box-sizing: border-box;
     box-sizing: border-box;
 }
+
 @media screen and (min-width: 945px) {
     .container {
         width: 945px;
         margin: 0 auto;
     }
+}
+
+.featured-work {
+    text-align: center;
+}
+
+.featured-work-image {
+    margin: 0 auto;
 }
 
 .header-logo {
