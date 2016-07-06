@@ -1,27 +1,29 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet">
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="css/main.css">
         <script type="text/javascript" src="js/jquery-2.2.4.min.js"></script>
         <script type="text/javascript" src="js/bootstrap.min.js"></script>
         <title>Albert Spoljaric: Portfolio</title>
     </head>
-
     <body>
         <div class="container">
           <div class="row">
-            <div class="col-md-6 col-sm-6 header-logo"><img src="http://placehold.it/100x100" alt="Udacity Logo"></div>
-            <div class="col-md-6 col-sm-6 text-right text-uppercase">
+            <div class="col-md-4 col-sm-4 header-logo">
+                <img class="img-responsive" src="images/udacity_logo.jpg" alt="Udacity Logo"></div>
+            <div class="col-md-8 col-sm-8 text-right text-uppercase">
               <h1>Albert Spoljaric</h1>
               <h3>Full Stack Developer</h3>
             </div>
           </div>
           <div class="row">
             <div class="col-md-12">
-              <img class="img-responsive" src="http://placehold.it/940x400" alt="sample image">
+            <hr>
+              <img class="img-responsive" src="images/main.jpg" alt="Programing">
             </div>
           </div>
           <div class="row">
@@ -31,50 +33,47 @@
           </div>
           <div class="row">
             <div class="featured-work col-md-4 col-sm-6 col-xs-12">
-              <img class="img-responsive featured-work-image" src="http://placehold.it/300x195" data-toggle="modal" data-target="#project1" alt="sample image">
-              <h3>Movie Trailer Website</h3>
-              <p><a href="https://github.com/aspoljaric/movietrailerapp">https://github.com/aspoljaric/movietrailerapp</a></p>
+              <img class="img-responsive featured-work-image" src="images/movie_trailer.jpg" data-toggle="modal" data-target="#project1" alt="Movie Trailer">
+              <div class="project-title">MOVIE TRAILER WEBSITE</div>
+              <div class="project-link"><a href="https://github.com/aspoljaric/movietrailerapp">https://github.com/aspoljaric/movietrailerapp</a></div>
             </div>
             <div class="featured-work col-md-4 col-sm-6 col-xs-12">
-              <img class="img-responsive featured-work-image" src="http://placehold.it/300x195" data-toggle="modal" data-target="#project2" alt="sample image">
-              <h3>Multi User Blog</h3>
-              <p><a href="https://github.com/aspoljaric/myblogapp">https://github.com/aspoljaric/myblogapp</a></p>
+              <img class="img-responsive featured-work-image" src="images/multi_blog.jpg" data-toggle="modal" data-target="#project2" alt="Multi User Blog">
+              <div class="project-title">MULTI-USER BLOG</div>
+              <div class="project-link"><a href="https://github.com/aspoljaric/myblogapp">https://github.com/aspoljaric/myblogapp</a></div>
             </div>
             <div class="featured-work col-md-4 col-sm-6 col-xs-12">
-              <img class="img-responsive featured-work-image" src="http://placehold.it/300x195" data-toggle="modal" data-target="#project3" alt="sample image">
-              <h3>Tournament Results</h3>
-              <p><a href="http://github.com">To be completed</a></p>
-            </div>
-
-            <div class="featured-work col-md-4 col-sm-6 col-xs-12">
-              <img class="img-responsive featured-work-image" src="http://placehold.it/300x195" data-toggle="modal" data-target="#project4" alt="sample image">
-              <h3>Item Catalog</h3>
-              <p><a href="http://github.com">To be completed</a></p>
+              <img class="img-responsive featured-work-image" src="images/tor_results.jpg" data-toggle="modal" data-target="#project3" alt="Tornament Results">
+              <div class="project-title">TOURNAMENT RESULTS</div>
+              <div class="project-link"><a href="http://github.com">To be completed</a></div>
             </div>
             <div class="featured-work col-md-4 col-sm-6 col-xs-12">
-              <img class="img-responsive featured-work-image" src="http://placehold.it/300x195" data-toggle="modal" data-target="#project5" alt="sample image">
-              <h3>Neighborhood Map</h3>
-              <p><a href="http://github.com">To be completed</a></p>
+              <img class="img-responsive featured-work-image" src="images/item_catalog.jpg" data-toggle="modal" data-target="#project4" alt="Item Catalog">
+              <div class="project-title">ITEM CATALOG</div>
+              <div class="project-link"><a href="http://github.com">To be completed</a></div>
             </div>
             <div class="featured-work col-md-4 col-sm-6 col-xs-12">
-              <img class="img-responsive featured-work-image" src="http://placehold.it/300x195" data-toggle="modal" data-target="#project6" alt="sample image">
-              <h3>Design a Game</h3>
-              <p><a href="http://github.com">To be completed</a></p>
+              <img class="img-responsive featured-work-image" src="images/neigh_map.jpg" data-toggle="modal" data-target="#project5" alt="Neighborhood Map">
+              <div class="project-title">NEIGHBOURHOOD MAP</div>
+              <div class="project-link"><a href="http://github.com">To be completed</a></div>
+            </div>
+            <div class="featured-work col-md-4 col-sm-6 col-xs-12">
+              <img class="img-responsive featured-work-image" src="images/des_game.jpg" data-toggle="modal" data-target="#project6" alt="Design Game">
+              <div class="project-title">DESIGN A GAME</div>
+              <div class="project-link"><a href="http://github.com">To be completed</a></div>
             </div>
           </div>
-
         </div>
 
         <!-- Modal -->
-        <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel1" aria-hidden="true">
+        <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="mymodallabel1" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h4 class="modal-title" id="myModalLabel1">Favorite App Page</h4>
+                        <h3 class="modal-title" id="mymodallabel1">MOVIE TRAILER WEBSITE</h3>
                     </div>
                     <div class="modal-body">
-                        <img class="img-responsive" src="http://placehold.it/555x300" alt="sample image">
-                        my text
+                        <p>This project involved writing server-side code to store a list of my favourite movies, including box art imagery and a movie trailer URL. Data was served up as a web page allowing visitors to review the movies and watch the trailers.</p>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -82,16 +81,14 @@
                 </div>
             </div>
         </div>
-
-        <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2" aria-hidden="true">
+        <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="mymodallabel2" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h4 class="modal-title" id="myModalLabel2">Favorite App Page</h4>
+                        <h3 class="modal-title" id="mymodallabel2">MULTI-USER BLOG</h3>
                     </div>
                     <div class="modal-body">
-                        <img class="img-responsive" src="http://placehold.it/555x300" alt="sample image">
-                        my text
+                        <p>This project involved building a multi user blog (along the lines of Medium) where users can sign in and post blog posts as well as 'Like' and 'Comment' on other posts made on the blog. The application is hosted on Google App Engine. The blog has also an authentication system for users to be able to register and sign in and then create blog posts.</p>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -99,16 +96,14 @@
                 </div>
             </div>
         </div>
-
-        <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel3" aria-hidden="true">
+        <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="mymodallabel3" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h4 class="modal-title" id="myModalLabel3">Favorite App Page</h4>
+                        <h3 class="modal-title" id="mymodallabel3">TOURNAMENT RESULTS</h3>
                     </div>
                     <div class="modal-body">
-                        <img class="img-responsive" src="http://placehold.it/555x300" alt="sample image">
-                        my text
+                        <p>This project involved developing a database schema to store the game matches between players. This data is then queried to determine the winners of various games.</p>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -116,16 +111,14 @@
                 </div>
             </div>
         </div>
-
-        <div class="modal fade" id="project4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel4" aria-hidden="true">
+        <div class="modal fade" id="project4" tabindex="-1" role="dialog" aria-labelledby="mymodallabel4" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h4 class="modal-title" id="myModalLabel4">Favorite App Page</h4>
+                        <h3 class="modal-title" id="mymodallabel4">ITEM CATALOG</h3>
                     </div>
                     <div class="modal-body">
-                        <img class="img-responsive" src="http://placehold.it/555x300" alt="sample image">
-                        my text
+                        <p>This project involved developing an application that provides a list of items within a variety of categories as well as provide a user registration and authentication system. Registered users have the ability to post, edit and delete their own items.</p>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -133,16 +126,14 @@
                 </div>
             </div>
         </div>
-
-        <div class="modal fade" id="project5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel5" aria-hidden="true">
+        <div class="modal fade" id="project5" tabindex="-1" role="dialog" aria-labelledby="mymodallabel5" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h4 class="modal-title" id="myModalLabel5">Favorite App Page</h4>
+                        <h3 class="modal-title" id="mymodallabel5">NEIGHBOURHOOD MAP</h3>
                     </div>
                     <div class="modal-body">
-                        <img class="img-responsive" src="http://placehold.it/555x300" alt="sample image">
-                        my text
+                        <p>This project involved developing a single-page application featuring a map of a neighbourhood I would like to visit. Functionality includes; map markers to identify popular locations or places I would like to visit, a search function to easily discover these locations, and a list view to support simple browsing of all locations. Third party API’s are also implemented to provided additional information about each of these locations (i.e. StreetView images, Wikipedia articles, Yelp reviews, etc).</p>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -150,16 +141,14 @@
                 </div>
             </div>
         </div>
-
-        <div class="modal fade" id="project6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel6" aria-hidden="true">
+        <div class="modal fade" id="project6" tabindex="-1" role="dialog" aria-labelledby="mymodallabel6" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h4 class="modal-title" id="myModalLabel6">Favorite App Page</h4>
+                        <h3 class="modal-title" id="mymodallabel6">DESIGN A GAME</h3>
                     </div>
                     <div class="modal-body">
-                        <img class="img-responsive" src="http://placehold.it/555x300" alt="sample image">
-                        my text
+                        <p>This project involved developing a game. I created an API with endpoints that will allow anyone to develop a front-end for my game.</p>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
